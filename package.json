@@ -1,0 +1,12 @@
+{
+  "name": "body-club",
+  "version": "0.0.0",
+  "type": "module",
+  "author": "",
+  "scripts": {
+    "format": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
+  }
+}
