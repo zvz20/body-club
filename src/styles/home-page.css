@@ -1,0 +1,41 @@
+.home-page {
+  background: url("../public/image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.home-page__title {
+  position: absolute;
+  width: 173px;
+  height: 225px;
+  left: 75px;
+  top: 163px;
+}
+.title__text {
+  display: inline-block;
+}
+.title__text::first-letter {
+  font-weight: 900;
+}
+
+.home-page__text {
+  position: absolute;
+  width: 517px;
+  height: 243px;
+  right: 75px;
+  top: 240px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 76px;
+  text-align: justify;
+}
+.home-page__button {
+  position: absolute;
+  width: 369px;
+  height: 70px;
+  right: 75px;
+  top: 571px;
+}

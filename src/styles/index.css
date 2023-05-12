@@ -1,34 +1,12 @@
 @import "./reset.css";
+@import "./header.css";
+@import "./home-page.css";
 
-.header {
-  background: transparent;
-  position: absolute;
-  height: 70px;
-}
-.home-page {
-  background: url("../public/image.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-.navbar {
-  display: flex;
-  margin-left: 865px;
-  align-items: center;
-}
-.navbar-menu li {
-  display: inline-block;
-}
-.navbar-menu li a {
-  display: inline-block;
-  padding: 40px;
-  font-size: 20px;
-}
-.SignIn {
-  margin-left: 180px;
-  margin-right: 75px;
-  padding: 40px;
+.button {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: justify;
   font-size: 27px;
   box-sizing: border-box;
 
@@ -39,59 +17,12 @@
   padding-left: 3rem;
   padding-right: 3rem;
 }
-.navbar-wrap {
-  height: 70px;
-  display: flex;
-  flex-flow: nowrap;
-  margin-left: auto;
-  align-items: center;
-}
-.home-page-title {
-  position: absolute;
-  width: 173px;
-  height: 225px;
-  left: 75px;
-  top: 163px;
-
+.title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 64px;
   line-height: 77px;
   text-align: justify;
-}
-.home-page-text p {
-  position: absolute;
-  width: 517px;
-  height: 243px;
-  left: 1280px;
-  top: 265px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 76px;
-  text-align: justify;
-}
-.book-button {
-  position: absolute;
-  width: 369px;
-  height: 70px;
-  left: 1440px;
-  top: 586px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 52px;
-  text-align: justify;
-  box-sizing: border-box;
-
-  background: #ffffff;
-  border: 0.5px solid#000000;
-  border-radius: 10px;
-  padding: 0.5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 body {
   position: relative;
